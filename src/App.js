@@ -9,14 +9,15 @@ import "./App.css";
 function App() {
   return (
     <div className="app">
-      <Router>
+      <Kanban />
+      {/* <Router>
         <Toaster />
         <Switch>
           <Route path="/" exact component={Login} />
           <Route path="/register" exact component={Register} />
           <Route path="/kanban" exact component={Kanban} />
         </Switch>
-      </Router>
+      </Router> */}
     </div>
   );
 }

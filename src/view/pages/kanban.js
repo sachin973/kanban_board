@@ -124,11 +124,11 @@ function Kanban() {
     return (
         <>      <div className="app_nav">
             <h1>Kanban Board</h1>
-            <IoIosLogOut className="app_nav_logout" onClick={() => {
+            {/* <IoIosLogOut className="app_nav_logout" onClick={() => {
                 window.localStorage.clear();
                 history.push("/");
                 toast.success("Logout successfully");
-            }} />
+            }} /> */}
         </div>
             <div className="app_boards_container">
                 <div className="app_boards">
