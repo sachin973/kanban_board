@@ -30,7 +30,7 @@ function Register() {
             <h1>Kanban Board</h1>
             <IoIosLogOut className="app_nav_logout" onClick={() => {
                 window.localStorage.clear();
-                history.push("/login");
+                history.push("/");
                 toast.success("Logout successfully");
             }} />
         </div>
@@ -60,7 +60,7 @@ function Register() {
                     <button className="auth_button" onClick={handleRegister}>
                         Register
                     </button>
-                    <p className="auth_not_registered">Already have an account! <span onClick={() => history.push("/login")}>Login</span></p>
+                    <p className="auth_not_registered">Already have an account! <span onClick={() => history.push("/")}>Login</span></p>
                 </div>
             </div>
         </>
