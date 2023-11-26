@@ -28,7 +28,7 @@ function Login() {
                 <h1>Kanban Board</h1>
                 <IoIosLogOut className="app_nav_logout" onClick={() => {
                     window.localStorage.clear();
-                    history.push("/");
+                    history.push("/login");
                     toast.success("Logout successfully");
                 }} />
             </div>

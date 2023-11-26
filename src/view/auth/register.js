@@ -60,7 +60,7 @@ function Register() {
                     <button className="auth_button" onClick={handleRegister}>
                         Register
                     </button>
-                    <p className="auth_not_registered">Already have an account! <span onClick={() => history.push("/")}>Login</span></p>
+                    <p className="auth_not_registered">Already have an account! <span onClick={() => history.push("/login")}>Login</span></p>
                 </div>
             </div>
         </>

@@ -14,7 +14,7 @@ function App() {
         <Switch>
           <Route path="/login" component={Login} />
           <Route path="/register" component={Register} />
-          <Route path="/" component={Kanban} />
+          <Route path="/kanban" component={Kanban} />
         </Switch>
       </Router>
     </div>
