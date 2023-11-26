@@ -12,9 +12,9 @@ function App() {
       <Toaster />
       <Router>
         <Switch>
-          <Route path="/" component={Login} />
+          <Route path="/login" component={Login} />
           <Route path="/register" component={Register} />
-          <Route path="/kanban" component={Kanban} />
+          <Route path="/" component={Kanban} />
         </Switch>
       </Router>
     </div>
