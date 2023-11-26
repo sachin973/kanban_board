@@ -1,4 +1,4 @@
-![Example Image](images/Screenshot.png)
+![Example Image](public/images/Screenshot.png)
 
 Getting Started
 To use this component, follow these steps:
